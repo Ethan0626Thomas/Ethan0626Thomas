@@ -1,11 +1,11 @@
 /* global Phaser */
-$(document).ready(function () {
+(document).ready(function () {
     'use strict';
     window.opspark = window.opspark || {};
     let 
         opspark = window.opspark,
         game = opspark.createGame(create, update),
-        lives = 3;
+        lives = 5;
         
     function create() {
         game.opspark.init();
